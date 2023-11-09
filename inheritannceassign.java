@@ -1,11 +1,14 @@
 public class inheritannceassign {
     public static void main(String[] args) {
         A mywork= new A();
+      
         mywork.find();
         mywork.display();
         mywork.calculate();
+        
         mywork.interfacetest();
-        mywork.show(); 
+          mywork.show();
+        
         
     }}
     class D{
@@ -35,8 +38,8 @@ public class inheritannceassign {
          void interfacetest();
     }
     class A extends B implements E{
-        public  void show(){
-            
+        public static  void show(){
+          int radius=2;  
         System.out.println(radius*radius*3.14);
         }
         public void interfacetest(){
